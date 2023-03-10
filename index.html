@@ -1,0 +1,45 @@
+<!--ICS20 Programming Unit2-03-HTML-StreetAddress-->
+<!--By: Julien Lamoureux-->
+<!--Date: March 10, 2023-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Meta Deta-->
+    <meta charset="utf-8">
+    <meta name="description" content="My second webpage, with MDL">
+    <meta name="keywords" content="Immaculata, ics2o">
+    <meta name="author" content="Julien L.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- For the favicon on this page -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index1/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index1/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index1/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index1/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Street Adress Webpage</title>
+  </head>
+  <body>
+  <!--Header and text-->
+    <script src="./js/script.js"></script>
+    <center>
+      <h1>Street address, street number, and type of residence</h1>
+      <h4>By: Julien Lamoureux</h4>
+      <h4>Course : ICS20 Promgramming</h4>
+      <br>
+      <br>
+      <!--Input and Textfield code-->
+       <p>
+      <h3>Please enter the following:</h3>
+      <form action="javascript:enterClicked()">
+        <label for="StreetName">Street Name</label>
+        <input type="text" id="StN" placeholder="Street Name"><br><br>
+        <label for="StreetNumber">Street Number</label>
+        <input type="number" id="StNu" placeholder="Student Number"><br><br>
+        <input type="submit" value="Enter">
+      </form>
+    </p>
+		<!-- Create a space where the user information will be displayed -->
+    <div id="Answer">
+    </div>
+  </body>
+</html>
