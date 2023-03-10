@@ -12,6 +12,6 @@ function enterClicked() {
 
 
   // display name and age back to user
-  document.getElementById('Answer').innerHTML = "Your address is " + number +" "+ name
+  document.getElementById('Answer').innerHTML = "Your address is " + number +" "+ name+"."
 }
 
