@@ -1,4 +1,4 @@
-// Copyright (c) 2023 Julien Laamoureux inc. All rights reserved
+// Copyright (c) 2023 Julien Lamoureux inc. All rights reserved
 //
 // Created by: Julien Lamoureux
 // Created on: Mar 2023
@@ -14,4 +14,3 @@ function enterClicked() {
   // display name and age back to user
   document.getElementById('Answer').innerHTML = "Your address is " + number +" "+ name+"."
 }
-
